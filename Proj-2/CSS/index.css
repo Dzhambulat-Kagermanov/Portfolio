@@ -1,0 +1,111 @@
+/* IMPORT CSS FILES */
+@import url("head-block.css");
+@import url("achivements-block.css");
+@import url("slider-block.css");
+@import url("info-block.css");
+@import url("services-block.css");
+@import url("our-works-block.css");
+@import url("footer-block.css");
+
+/* IMPORT FONTS */
+@font-face {
+  font-family: RG-Medium;
+  src: url(../FONTS/ReformaGroteskMedium.ttf);
+}
+@font-face {
+  font-family: RG-Demi;
+  src: url(../FONTS/ReformaGroteskDemi.ttf);
+}
+@font-face {
+  font-family: RG-Bold;
+  src: url(../FONTS/ReformaGroteskBold.ttf);
+}
+
+/* DEFAULT SETTINGS */
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+button {
+  display: block;
+}
+
+/* VARIABLES (:root) */
+:root {
+  --txt-red: #db3138;
+  --txt-white: #ffffff;
+  --bcg-black: #141414;
+}
+
+/* CONTAINERS INDIDVIDUAL STYLES */
+.container-1 {
+  background-image: url("../IMG/HEAD-BLOCK/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* CONTAINERS & INNER & WRAPPER DEFAULT STYLES */
+.container {
+  width: 1920px;
+  background-color: var(--bcg-black);
+  margin: 0 auto;
+}
+.inner {
+  width: 1300px;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 100%;
+}
+.zalivka {
+  background-color: var(--bcg-black);
+}
+
+/* IDENTICAL BLOCKS SETUP */
+.title__decoration {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.title__decoration span {
+  width: 10px;
+  height: 10px;
+  background-color: var(--txt-red);
+  transform: rotate(45deg);
+  display: block;
+}
+.achiev-title__decoration {
+  justify-content: flex-start;
+}
+
+.img-item-1 {
+  width: 56.47px;
+  height: 70.34px;
+}
+.img-item-2 {
+  width: 70px;
+  height: 45.19px;
+}
+.img-item-3 {
+  width: 70px;
+  height: 70px;
+}
+.img-item-4 {
+  width: 70px;
+  height: 56.53px;
+}

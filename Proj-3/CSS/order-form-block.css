@@ -1,0 +1,133 @@
+.order-form-block__wrapper {
+  height: 100%;
+}
+.orderForm-block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.orderForm-block__half {
+  height: 100%;
+}
+/* HALF-1 */
+.oF-half-1 {
+  width: 355px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../IMG/ORDER-FORM/background-1.jpg");
+  background-size: cover;
+}
+.oF-half__text {
+  margin: 0 0 15px 30px;
+}
+/* #HALF-2 CHAPTER 1*/
+.oF-half-2 {
+  width: 515px;
+}
+/* TITLE */
+.orderForm-block__title {
+  text-align: center;
+  margin-top: 55px;
+}
+.orderForm-block__title h2 {
+  font-family: Montserrat-M;
+  font-weight: 600;
+  font-size: 36px;
+  color: #ffffff;
+}
+/* #FORM */
+.orderForm-block__form {
+  width: 435px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 25px;
+  margin: 45px auto 65px auto;
+}
+.orderForm-block__form input {
+  border: 3px solid #ffffff;
+  width: 100%;
+  height: 40px;
+  color: white;
+  position: relative;
+}
+.oF-form__inp {
+  position: relative;
+}
+.oF-input {
+  font-family: Montserrat-M;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.2s all linear;
+  text-indent: 14px;
+}
+.oF-form__inp::before {
+  position: absolute;
+  font-family: Montserrat-M;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.oF-form__inp:nth-child(1)::before {
+  content: "Ваше имя";
+}
+.oF-form__inp:nth-child(2)::before {
+  content: "Ваш телефон";
+}
+.oF-form__inp:nth-child(3)::before {
+  content: "E-mail";
+}
+.oF-form__inp:nth-child(4)::before {
+  content: "Комментарий";
+}
+#oF-form__inp-4 {
+  height: 80px;
+}
+/* #CHECKBOX FORM */
+.oF-form__checkbox {
+  display: flex;
+  margin-top: 20px;
+}
+.oF-form__checkbox input {
+  border: none;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.oF-form__checkbox a {
+  font-family: Montserrat-M;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+/* #FORM BTN */
+.oF-btn {
+  margin: 0 auto;
+}
+
+/* #HALF-2 CHAPTER 2 */
+.orderForm-block__title-1 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.orderForm-block__text {
+  width: 400px;
+  display: flex;
+  flex-flow: wrap column;
+  row-gap: 30px;
+  margin: 0 auto;
+}
+.orderForm-block__text h2 {
+  font-family: Montserrat-M;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}

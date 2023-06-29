@@ -1,0 +1,159 @@
+/* IMPORT CSS FILES */
+@import url("head-block.css");
+@import url("about-us-block.css");
+@import url("partners-block.css");
+@import url("catalog-block.css");
+@import url("work-examples-block.css");
+@import url("order-block.css");
+@import url("advantages-block.css");
+@import url("contacts-block.css");
+@import url("footer-block.css");
+@import url("order-form-block.css");
+
+/* IMPORT FONTS */
+@font-face {
+  font-family: Montserrat-M;
+  src: url("../FONTS/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Montserrat-SB;
+  src: url("../FONTS/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat-B;
+  src: url("../FONTS/Montserrat-Bold.ttf");
+}
+
+/* DEFAULT SETTINGS */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 1;
+}
+input {
+  background-color: transparent;
+}
+button {
+  display: block;
+}
+body {
+  position: relative;
+}
+/* VARIABLES (:root) */
+:root {
+  --bl: #181715;
+}
+
+/* CONTAINERS & INNER & WRAPPER DEFAULT STYLES */
+.container {
+  width: 1440px;
+  background-color: var(--bl);
+  margin: 0 auto;
+  position: relative;
+}
+.inner {
+  width: 1360px;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 100%;
+}
+
+/* CONTAINERS INDIDVIDUAL STYLES */
+.container-1 {
+  background-image: url("../IMG/HEAD/background.jpg");
+  background-size: cover;
+}
+.container-7 {
+  background-image: url("../IMG/ADVANTAGES/background.png");
+  background-size: cover;
+}
+.container-9 {
+  background-color: black;
+}
+.container-10 {
+  width: 870px;
+  height: 750px;
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  box-shadow: 0 0 40px 30px black;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s all cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* POPUP MENU */
+.popup-active {
+  transform: translate(-50%, -50%) scale(1);
+}
+#popup-background {
+  width: 100vw;
+  height: 100vh;
+  z-index: 19;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: none;
+  cursor: pointer;
+}
+
+/* IDENTICAL BLOCKS SETUP */
+
+/* --WEBSITE NAME */
+.website-name h2 {
+  font-family: Montserrat-B;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+/* --WEBSITE BTN */
+.website-btn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.1s all linear;
+}
+.website-btn h2 {
+  font-family: Montserrat-SB;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.website-btn:hover {
+  transform: scale(1.07);
+}
+/* --WEBSITE TITLE */
+.website-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.website-title h2 {
+  font-family: Montserrat-M;
+  font-weight: 700;
+  font-size: 42px;
+  color: #ffffff;
+}

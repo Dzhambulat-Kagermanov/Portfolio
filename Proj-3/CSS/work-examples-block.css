@@ -1,0 +1,235 @@
+/*
+  WIDTH
+  230px-1
+  315px-2
+  230px-1
+  270px-3
+  
+  HEIGHT
+  245px-1
+  250px-2
+  300px-3
+*/
+.workExamples-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 95px;
+  row-gap: 110px;
+  padding-bottom: 200px;
+}
+.workExamles-block__item {
+  border-radius: 25px;
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
+.workExamles-block__item:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* ЕСЛИ НЕДОСТУПЕН ТОВАР */
+.wE-b__item-unavailable {
+  background-color: black;
+}
+.wE-b__item-unavailable p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wE-b__item-unavailable p::before {
+  content: "ПОКА НЕДОСТУПНО";
+  font-family: Montserrat-SB;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+/* RANDOM */
+.wE-b__item-random {
+  background-size: cover;
+}
+.wE-b__item-random:nth-child(1) {
+  background-image: url("../IMG/WORK/RANDOM/item-1.png");
+}
+.wE-b__item-random:nth-child(2) {
+  background-image: url("../IMG/WORK/RANDOM/item-2.png");
+}
+.wE-b__item-random:nth-child(3) {
+  background-image: url("../IMG/WORK/RANDOM/item-3.png");
+}
+.wE-b__item-random:nth-child(4) {
+  background-image: url("../IMG/WORK/RANDOM/item-4.png");
+}
+.wE-b__item-random:nth-child(5) {
+  background-image: url("../IMG/WORK/RANDOM/item-5.png");
+}
+.wE-b__item-random:nth-child(6) {
+  background-image: url("../IMG/WORK/RANDOM/item-6.png");
+}
+.wE-b__item-random:nth-child(7) {
+  background-image: url("../IMG/WORK/RANDOM/item-7.png");
+}
+.wE-b__item-random:nth-child(8) {
+  background-image: url("../IMG/WORK/RANDOM/item-8.png");
+}
+.wE-b__item-random:nth-child(9) {
+  background-image: url("../IMG/WORK/RANDOM/item-9.png");
+}
+.wE-b__item-random:nth-child(10) {
+  background-image: url("../IMG/WORK/RANDOM/item-10.png");
+}
+.wE-b__item-random:nth-child(11) {
+  background-image: url("../IMG/WORK/RANDOM/item-11.png");
+}
+.wE-b__item-random:nth-child(12) {
+  background-image: url("../IMG/WORK/RANDOM/item-12.png");
+}
+
+/* КОЗЫРЬКИ */
+.wE-b__item-VISORS {
+  background-size: cover;
+}
+
+/* НАВЕСЫ */
+.wE-b__item-CANOPIES {
+  background-size: cover;
+}
+/* БЕСЕДКИ */
+.wE-b__item-PAVILLIONS {
+  background-size: cover;
+}
+/* ВОРОТА */
+.wE-b__item-GATES {
+  background-size: cover;
+}
+/* РЕШЕТКИ */
+.wE-b__item-LATTICES {
+  background-size: cover;
+}
+/* ЛЕСТНИЦЫ */
+.wE-b__item-STAIRS {
+  background-size: cover;
+}
+/* МАНГАЛЫ */
+.wE-b__item-GRILLS {
+  background-size: cover;
+}
+/* КАЧЕЛИ */
+.wE-b__item-SWING {
+  background-size: cover;
+}
+/* ПЕРИЛА */
+.wE-b__item-RAILING {
+  background-size: cover;
+}
+/* ВХОДНЫЕ ГРУППЫ */
+.wE-b__item-INPUTGROUPS {
+  background-size: cover;
+}
+/* ОГРАЖДЕНИЯ */
+.wE-b__item-FENCES {
+  background-size: cover;
+}
+/* ДРУГОЕ */
+.wE-b__item-OTHER {
+  background-size: cover;
+}
+
+/* WORKS SIZES */
+.wE-b__item-random {
+  background-color: indigo;
+}
+/* --WIDTH */
+.wE-b__item-width-1 {
+  position: relative;
+  width: 230px;
+}
+.wE-b__item-width-2 {
+  position: relative;
+  width: 315px;
+}
+.wE-b__item-width-3 {
+  position: relative;
+  width: 270px;
+}
+/* --HEIGHT */
+.wE-b__item-height-1 {
+  height: 245px;
+}
+.wE-b__item-height-2 {
+  height: 250px;
+}
+.wE-b__item-height-3 {
+  height: 300px;
+}
+
+/* WORKS DECORATIOPS */
+.wE-b__item-width-1::before {
+  content: "";
+  width: 160px;
+  height: 115px;
+  position: absolute;
+  right: -20px;
+  top: -35px;
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}
+.wE-b__item-width-1::after {
+  content: "";
+  width: 160px;
+  height: 115px;
+  position: absolute;
+  left: -20px;
+  bottom: -35px;
+  transform: scale(-1, -1);
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}
+
+.wE-b__item-width-2::before {
+  content: "";
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  right: -20px;
+  top: -35px;
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}
+.wE-b__item-width-2::after {
+  content: "";
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  left: -20px;
+  bottom: -35px;
+  transform: scale(-1, -1);
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}
+
+.wE-b__item-width-3::before {
+  content: "";
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  right: -20px;
+  top: -35px;
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}
+.wE-b__item-width-3::after {
+  content: "";
+  width: 170px;
+  height: 120px;
+  position: absolute;
+  left: -20px;
+  bottom: -35px;
+  transform: scale(-1, -1);
+  background-image: url("../IMG/WORK/DECORATIONS/decor-1.png");
+  background-size: cover;
+}

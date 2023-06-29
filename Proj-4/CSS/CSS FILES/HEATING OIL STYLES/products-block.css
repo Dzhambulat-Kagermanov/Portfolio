@@ -1,0 +1,5 @@
+.ho-products-item__img {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+}

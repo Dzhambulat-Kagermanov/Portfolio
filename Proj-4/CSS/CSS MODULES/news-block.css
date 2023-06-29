@@ -1,0 +1,114 @@
+.news-block {
+  width: 100%;
+  margin-top: 80px;
+}
+/* TITLE */
+.news-block__title {
+  margin-bottom: 30px;
+}
+.news-block__title h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 700;
+}
+.news-block__title h2 span {
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 700;
+}
+/* GROUP */
+.news-block__group {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.news-group__item {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.news-item__img {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  padding: 17px 0;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.news-item__img img {
+  opacity: 0.7;
+  width: 185px;
+  height: 156px;
+  transition: 0.1s all linear;
+}
+.news-item__img:hover img {
+  transform: scale(1.05);
+}
+.news-group__item {
+  width: 310px;
+}
+.news-group__item h2 {
+  color: #000;
+  font-size: 20px;
+  font-family: RubikBold;
+  font-weight: 600;
+  margin: 20px 0 5px 20px;
+}
+.news-group__item h3 {
+  width: 270px;
+  color: #5b5b5b;
+  font-size: 16px;
+  font-family: RubikRegular;
+  margin: 0 0 30px 20px;
+}
+/* BTN */
+.news-item__btn {
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #dba833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 20px;
+  cursor: pointer;
+  transition: 0.1s all linear;
+}
+.news-item__btn:hover {
+  transform: scale(1.05);
+}
+.news-item__btn h2 {
+  color: #dba833;
+  text-align: center;
+  font-size: 16px;
+  font-family: InterBold;
+  font-weight: 700;
+  margin: 0;
+}
+
+.news-block__btn {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #dba833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+  transition: 0.1s all linear;
+}
+.news-block__btn h2 {
+  color: #dba833;
+  text-align: center;
+  font-size: 20px;
+  font-family: InterBold;
+  font-weight: 700;
+}
+
+.news-block__btn:hover {
+  transform: scale(1.08);
+}

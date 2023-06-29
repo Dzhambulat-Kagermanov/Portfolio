@@ -1,0 +1,26 @@
+/* DEFAULT SETTINGS */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 1;
+}
+input {
+  background-color: transparent;
+}
+button {
+  display: block;
+}
+body {
+  position: relative;
+}

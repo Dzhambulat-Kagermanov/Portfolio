@@ -1,0 +1,11 @@
+.order-block {
+  width: 100%;
+  padding-bottom: 160px;
+}
+.order-block__title {
+  text-align: center;
+  line-height: 60px;
+}
+.order-block__btn {
+  margin: 70px auto 0 auto;
+}

@@ -1,0 +1,33 @@
+.block-content__btn {
+  margin: 0 auto;
+  width: 290px;
+  height: 55px;
+  border-radius: 5px;
+  background: #dba833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s all linear;
+}
+.block-content__btn:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 3px solid #dba833;
+}
+.block-content__btn:hover h2 {
+  color: #dba833;
+}
+.block-content__btn h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-family: InterBold;
+  font-weight: 700;
+  transition: 0.2s all linear;
+}
+
+/* INDIVIDUAL STYLES */
+.description-item__content .block-content__btn {
+  width: 350px;
+}

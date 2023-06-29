@@ -1,0 +1,58 @@
+.m-azs-advantages-block {
+  margin-top: 120px;
+  width: 100%;
+}
+/* TITLE */
+.m-azs-advantages-block__title h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 700;
+}
+.m-azs-advantages-block__title h2 span {
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 700;
+}
+/* SUBTITLE */
+.m-azs-advantages-block__subtitle {
+  margin: 10px 0 30px 0;
+}
+.m-azs-advantages-block__subtitle h2 {
+  color: #5b5b5b;
+  text-align: center;
+  font-size: 24px;
+  font-family: InterRegular;
+  font-weight: 400;
+}
+/* GROUP */
+.m-azs-advantages-block__group {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.m-azs-advantages-group__item {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+  border-radius: 30px;
+  border: 3px dashed #dba833;
+  padding: 25px 0;
+}
+.m-azs-advantages-group__item img {
+  width: 105px;
+  height: 110px;
+}
+.m-azs-advantages-group__item h2 {
+  width: 310px;
+  color: #dba833;
+  text-align: center;
+  font-size: 20px;
+  font-family: RubikRegular;
+  font-weight: 400;
+  margin-top: 10px;
+}

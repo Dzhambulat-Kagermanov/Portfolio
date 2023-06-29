@@ -1,0 +1,136 @@
+/* IMPORT DEFAULT SETTINGS STYLES */
+@import url("default-settings.css");
+
+/* IMPORT CSS MODULES */
+@import url("CSS MODULES/navigation-block.css");
+@import url("CSS MODULES/news-block.css");
+@import url("CSS MODULES/manufacturers-block.css");
+@import url("CSS MODULES/geography-block.css");
+@import url("CSS MODULES/clients-block.css");
+@import url("CSS MODULES/reviews-block.css");
+@import url("CSS MODULES/footer-block.css");
+@import url("CSS MODULES/block-btn.css");
+
+/* IMPORT CSS FILES */
+/* --IMPORT CSS FILES INDEX STYLES */
+@import url("CSS FILES/INDEX STYLES/head-block.css");
+@import url("CSS FILES/INDEX STYLES/description-block.css");
+@import url("CSS FILES/INDEX STYLES/products-block.css");
+/* --IMPORT CSS FILES GENERAL HEAD STYLES */
+@import url("CSS FILES/general-head-1.css");
+@import url("CSS FILES/general-head-2.css");
+/* --IMPORT CSS DIESEL FUEL STYLES */
+@import url("CSS FILES/DIESEL FUEL STYLES/products-block.css");
+/* --IMPORT CSS MINI AZS STYLES */
+@import url("CSS FILES/MINI AZS STYLES/products-block.css");
+@import url("CSS FILES/MINI AZS STYLES/advantages-block.css");
+@import url("CSS FILES/MINI AZS STYLES/examples-block.css");
+@import url("CSS FILES/MINI AZS STYLES/certificate-block.css");
+/* --IMPORT CSS HEATING OIL STYLES */
+@import url(".css");
+@import url(".css");
+@import url(".css");
+@import url(".css");
+@import url(".css");
+/* --IMPORT CSS MARINE FUEL STYLES */
+/* --IMPORT CSS CONTACTS STYLES */
+/* --IMPORT CSS BLOG STYLES */
+
+/* IMPORT CSS ADAPTIVE */
+/* --IMPORT CSS ADAPTIVE FILES */
+/* ----IMPORT CSS ADAPTIVE FILES (INDEX STYLES) */
+@import url("CSS ADAPTIVE/CSS ADAPTIVE FILES/INDEX STYLES/adaptive-head-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE FILES/INDEX STYLES/adaptive-oil-products-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE FILES/INDEX STYLES/adaptive-recomendation-block.css");
+/* ----IMPORT CSS ADAPTIVE FILES (DIESEL FUEL STYLES) */
+/* ----IMPORT CSS ADAPTIVE FILES (MINI AZS STYLES) */
+/* ----IMPORT CSS ADAPTIVE FILES (HEATING OIL STYLES) */
+/* ----IMPORT CSS ADAPTIVE FILES (MARINE FUEL STYLES) */
+/* ----IMPORT CSS ADAPTIVE FILES (BLOG STYLES) */
+/* ----IMPORT CSS ADAPTIVE FILES (CONTACTS STYLES) */
+
+/* --IMPORT CSS ADAPTIVE MODULES */
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-clients-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-footer-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-geography-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-manufacturers-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-navigation-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-news-block.css");
+@import url("CSS ADAPTIVE/CSS ADAPTIVE MODULES/adaptive-reviews-block.css");
+
+/* IMPORT FONTS */
+@font-face {
+  font-family: InterRegular;
+  src: url("../FONTS/Inter/Inter-Regular.otf");
+}
+@font-face {
+  font-family: InterBold;
+  src: url("../FONTS/Inter/Inter-Bold.otf");
+}
+@font-face {
+  font-family: InterMedium;
+  src: url("../FONTS/Inter/Inter-Medium.otf");
+}
+@font-face {
+  font-family: InterSemiBold;
+  src: url("../FONTS/Inter/Inter-Medium.otf");
+}
+@font-face {
+  font-family: RubikRegular;
+  src: url("../FONTS/Rubik/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: RubikBold;
+  src: url("../FONTS/Rubik/Rubik-Bold.ttf");
+}
+
+/* VARIABLES (:root) */
+:root {
+}
+
+/* CONTAINERS & INNER & WRAPPER DEFAULT STYLES */
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 100%;
+}
+
+/* CONTAINERS INDIDVIDUAL STYLES */
+/* --GENERAL CONTAINER 1 */
+.general-container-1 {
+  background-image: url("../IMG/FILES/background-1.jpg");
+}
+/* --GENERAL CONTAINER 2 */
+.general-container-2 {
+  background-image: url("../IMG/FILES/background-2.jpg");
+}
+/* --INDEX */
+.container-1 {
+  background-image: url("../IMG/MODULES/NAVIGATION/background.jpg");
+  background-size: cover;
+}
+.container-2 {
+  background-image: url("../IMG/FILES/INDEX/DESCRIPTION/background-1.jpg");
+}
+#container-2__background {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* --MINI AZS */
+.m-azs-container-1 {
+  background-image: url("../IMG/FILES/MINI-AZS/HEAD/background.jpg");
+  background-position: center center;
+}
+
+/* IDENTICAL BLOCKS SETUP */
+h2 span {
+  color: #dba833;
+}

@@ -1,0 +1,29 @@
+.aboutUs-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 130px;
+}
+/* #HALF */
+.aboutUs-half {
+  width: 660px;
+}
+/* #TITLE */
+.aboutUs-title {
+  padding-top: 20px;
+  margin-bottom: 75px;
+}
+.aboutUs-half__text {
+  margin-bottom: 45px;
+}
+.aboutUs-half__text h2 {
+  font-family: Montserrat-M;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.aboutUs-half img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,117 @@
+.geography-block {
+  width: 100%;
+  margin-top: 110px;
+  position: relative;
+  z-index: 2;
+}
+/* ELIPSE */
+#geography-block__elipse {
+  background-color: #f8f8f8;
+  width: 1395px;
+  height: 760px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+/* TITLE */
+.geography-block__title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.geography-block__title h2 {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 600;
+}
+.geography-block__title h2 span {
+  text-align: center;
+  font-size: 48px;
+  font-family: RubikBold;
+  font-weight: 700;
+}
+/* MAP */
+.geography-block__map {
+  width: 1200px;
+  height: 550px;
+  margin-bottom: 80px;
+  position: relative;
+  background-image: url("../../IMG/MODULES/GEOGRAPHY/background.jpg");
+  border: 2px solid #dba833;
+  border-radius: 30px;
+}
+.geography-map__item {
+  position: absolute;
+  text-align: center;
+}
+.geography-map__item-label {
+  cursor: pointer;
+}
+.geography-map__item h2 {
+  margin-top: -10px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: InterRegular;
+}
+/* LABEL ITEMS */
+
+#g-m__item-smolensk {
+  bottom: 84px;
+  left: 175px;
+}
+#g-m__item-kaluga {
+  bottom: 50px;
+  left: 500px;
+}
+#g-m__item-ryazan {
+  bottom: 60px;
+  left: 750px;
+}
+#g-m__item-moscow {
+  bottom: 200px;
+  left: 590px;
+}
+#g-m__item-vladimir {
+  bottom: 240px;
+  left: 770px;
+}
+#g-m__item-tver {
+  bottom: 340px;
+  left: 480px;
+}
+#g-m__item-yaroslavl {
+  bottom: 440px;
+  left: 735px;
+}
+
+/* WAY ITEMS */
+#g-m__item-way-1 {
+  bottom: 120px;
+  left: 260px;
+}
+#g-m__item-way-2 {
+  bottom: 40px;
+  left: 580px;
+}
+#g-m__item-way-3 {
+  bottom: 95px;
+  left: 670px;
+}
+#g-m__item-way-4 {
+  bottom: 225px;
+  left: 670px;
+}
+#g-m__item-way-5 {
+  bottom: 245px;
+  left: 660px;
+}
+#g-m__item-way-6 {
+  bottom: 250px;
+  left: 515px;
+}
